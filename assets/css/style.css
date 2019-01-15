@@ -1,0 +1,68 @@
+#container {
+    margin: 10px;
+    padding: 5%;
+    text-align: left;
+}
+
+body {
+    background-image: url("../images/ep_naturalwhite.png")    
+} 
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.container {
+    padding: 5%;
+}
+
+.jumbotron-fluid {  
+    background-image: url("../images/colorado-river-in-the-grand-canyon-landscape-web-header.jpg");
+
+}
+
+.display-4 {
+    color: white;
+}
+
+.media-body {
+    padding: 25px;
+    background-color: #ffffff;
+    opacity: .5;
+    font-weight: bold;
+    border: 2px solid maroon;
+    
+}
+
+.list-unstyled {
+    padding: 25px;
+}
+
+.footer {
+    text-align: center;
+    color: maroon;
+    font-weight: bold;
+}
+
+.mt-0 {
+    color: maroon;
+
+}
+
+#container1 {
+    margin: auto;
+}
